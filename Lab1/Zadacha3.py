@@ -1,7 +1,9 @@
-a = int(input("Vvedite pervoe chislo: "))
-b = int(input("vvedite vtoroe chislo: "))
+number1 = int(input())
+number2 = int(input())
 
-if a > b:
-    print("naibolwee chislo eto: ", a)
+if number1 > number2:
+    print(1)
+elif number2 > number1:
+    print(2)
 else:
-    print("naibolwee chislo eto: ", b)
+    print(0)
